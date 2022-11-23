@@ -19,19 +19,19 @@
     - Power Tools (e.GO Mobile)
     - Tasks (actboy168)
 ## 3. Install the Onethinx Dependencies Pack
-  - Unzip the pack archive to your local harddisk (eg: C:\VSCode_OnethinxPack_Windows).
-    - Hint: you might want to remove '-main' at the end of the folder name.
-  - Open your command prompt (cmd).
-  - Run `C:\VSCode_OnethinxPack_Windows\setVariables.bat`.
-    - You'll see the environment variables and the path being set.
-  - Restart your machine (or log-out and log-in) to reload the environment variables.
+  - Unzip the pack archive to your local harddisk (eg: C:\VSCode_OnethinxPack_Windows)
+    - Hint: you might want to remove '-main' at the end of the folder name
+  - Open your command prompt (cmd)
+  - Run `C:\VSCode_OnethinxPack_Windows\setVariables.bat`
+    - You'll see the environment variables and the path being set
+  - Restart your machine (or log-out and log-in) to reload the environment variables
 ## 4. Check
-  - If CMake, Make and the compiler is correctly installed by typing the following into your command prompt or terminal window of VS Code.
+  - If CMake, Make and the compiler is correctly installed by typing the following into your command prompt or terminal window of VS Code
     - `cmake -version`
     - `mingw32-make -v`
     - `arm-none-eabi-gcc -v`
-    - If you have not done this yet, download the [Hello World Project](https://github.com/onethinx/VSCode_HelloWorld)
-      - You should be able to build and debug this project. If you experience issues, [your feedback is appreciated.](https://github.com/onethinx/VSCode_OnethinxPack_Windows/issues)
+  - If you have not done this yet, download the [Hello World Project](https://github.com/onethinx/HelloWorld)
+    - You should be able to build and debug this project. If you experience issues, [your feedback is appreciated.](https://github.com/onethinx/VSCode_OnethinxPack_Windows/issues)
 ## 5. Remind
   - After changing the device configuration (or project file structure) to use
     - Clean Reconfigure
@@ -39,7 +39,7 @@
        in order to build the image properly  
   - To delete the contents of the build folder
     - if you copied the project including build folder from another location / machine
-    - when build fails.
+    - when build fails
   - This pack contains the 64bit version of CMake. Replace with the 32bit version if you run on a 32bit machine.
   
 ## How to update
@@ -47,6 +47,6 @@
   - Delete the contents of the Dependencies Pack folder from you harddisk
   - Unpack the contents of the archive to the Dependencies Pack folder
   - Run `C:\VSCode_OnethinxPack_Windows\removeVariables.bat`
-  - Run `C:\VSCode_OnethinxPack_Windows\setVariables.bat`.
-  - Restart your machine (or log-out and log-in) to reload the environment variables.
+  - Run `C:\VSCode_OnethinxPack_Windows\setVariables.bat`
+  - Restart your machine (or log-out and log-in) to reload the environment variables
   - If not done yet, update your projects CMakeLists.txt: change `${TOOL_LOC}` to `$ENV{ONETHINX_TOOLS_LOC}` (see the [Project Examples](https://github.com/onethinx/Onethinx_Project_Examples) for reference).
