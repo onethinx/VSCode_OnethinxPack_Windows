@@ -49,3 +49,4 @@
   - Run `C:\VSCode_OnethinxPack_Windows\removeVariables.bat`
   - Run `C:\VSCode_OnethinxPack_Windows\setVariables.bat`.
   - Restart your machine (or log-out and log-in) to reload the environment variables.
+  - If not done yet, update your projects CMakeLists.txt: change `${TOOL_LOC}` to `$ENV{ONETHINX_TOOLS_LOC}` (see the [Project Examples](https://github.com/onethinx/Onethinx_Project_Examples) for reference).
