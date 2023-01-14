@@ -10,13 +10,13 @@
 ## 2. Install VS Code & extensions
   - Install VS Code.
   - Install extensions:
-    - ARM Assembly Support For Visual Studio Code (dan-c-underwood)
     - C/C++ IntelliSense, debugging (microsoft)
     - Cortex-Debug GDB support (marus25)
     - Meson Build (mrmomo)
-    - Output Colorizer (IBM)
     - Power Tools (e.GO Mobile)
     - Tasks (actboy168)
+    - optional: ARM Assembly Support For Visual Studio Code (dan-c-underwood)
+    - optional: Output Colorizer (IBM)
 ## 3. Install Meson & Ninja build tools
   - Install Meson & Ninja with the MSI installer from: [meson-1.0.0-64.msi
 ](https://github.com/mesonbuild/meson/releases)
