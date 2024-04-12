@@ -1,5 +1,9 @@
-# Onethinx Core Windows dependencies pack
+# Onethinx Core Windows dependencies pack DEPRICIATED
 
+## Please use [OTX-Maestro](https://github.com/onethinx/OTX-Maestro) for a single click full install solution
+#
+#
+#
 ## How to setup Visual Studio Code with the Onethinx Core dependencies pack
 
 ## 1. Download prerequisites
